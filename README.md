@@ -1,4 +1,4 @@
-## <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" width="120" alt=" Flutter "> #  101: Building Awesome Cross-Platform Apps
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" width="120" alt=" Flutter ">  #  101: Building Awesome Cross-Platform Apps
 
 Welcome to Flutter 101, the ultimate guide to mastering the art of building stunning cross-platform applications! 🚀
 
