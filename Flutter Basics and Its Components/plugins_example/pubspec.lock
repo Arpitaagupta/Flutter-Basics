@@ -160,6 +160,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  system_shortcuts:
+    dependency: "direct main"
+    description:
+      name: system_shortcuts
+      sha256: "6855ef0a8ba055f48f7ff63d3fdd374d3e8e3a3b504a9281ae072f456c36ec6b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   term_glyph:
     dependency: transitive
     description:
@@ -186,3 +194,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=2.19.6 <3.0.0"
+  flutter: ">=1.10.0"

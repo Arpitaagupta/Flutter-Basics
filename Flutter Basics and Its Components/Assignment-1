@@ -1,0 +1,16 @@
+To upgrade Flutter to the latest version, you can use the Flutter SDK's built-in upgrade command. Here's how you can do it:
+
+Open a terminal or command prompt.
+
+Run the following command to upgrade Flutter:
+``` flutter upgrade ```
+
+
+This command will check for the latest version of Flutter available and update your current Flutter installation to the newest version.
+
+After running the upgrade command, Flutter will download and install the latest version. The process may take a few minutes depending on your internet connection and the size of the update.
+
+Once the upgrade is complete, you should see a message indicating that Flutter has been successfully upgraded to the latest version.
+
+To verify that the upgrade was successful, you can run the following command to check the Flutter version:
+``` flutter --version ```
