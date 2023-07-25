@@ -5,13 +5,19 @@ void main() {
 }
 
 class MainPage extends StatefulWidget {
-  const MainPage({super.key});
+  const MainPage({Key? key}) : super(key: key);
 
   @override
-  State<MainPage> createState() => _MainPageState();
+  _MainPageState createState() => _MainPageState();
 }
 
 class _MainPageState extends State<MainPage> {
+  @override
+  void initState() {
+    super.initState();
+    // Add any initialization code here if needed
+  }
+
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
@@ -21,15 +27,38 @@ class _MainPageState extends State<MainPage> {
 }
 
 class Main extends StatefulWidget {
-  const Main({super.key});
+  const Main({Key? key}) : super(key: key);
 
   @override
-  State<Main> createState() => _MainState();
+  _MainState createState() => _MainState();
 }
 
-class _MainState extends State<Main> {
+class _MainState extends State<Main> with SingleTickerProviderStateMixin {
+  // SingleTickerProviderStateMixin --> it informs every widget in a frame of flutter app
+  late Animation animation;
+  late AnimationController animationController;
+  @override
+  @override
+  void initState() {
+    super.initState();
+    animationController = AnimationController(
+      vsync: this,
+      duration: Duration(seconds: 3),
+    );
+    animation = Tween(begin: 0.0, end: 1.0).animate(
+        CurvedAnimation(curve: Curves.linear, parent: animationController));
+    animationController.forward();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Container();
+    print(animation.value);
+    return AnimatedBuilder(
+        animation: animation,
+        builder: (builder, child) {
+          return const Scaffold(
+            body: Text("Hello"),
+          );
+        });
   }
 }
