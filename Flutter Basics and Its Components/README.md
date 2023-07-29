@@ -4,15 +4,15 @@ This README provides an introduction to Flutter and covers its fundamental compo
 
 ## 🔗Table of Contents 
 
-## [1. Introduction]
+## 1. Introduction
 
 Flutter is an open-source UI software development kit created by Google. It allows developers to build natively compiled applications for mobile, web, and desktop from a single codebase. Flutter uses the Dart programming language to create beautiful and high-performance user interfaces.
 
-## [2. Installation]
+## 2. Installation
 
 To get started with Flutter, you need to install the Flutter SDK and set up the necessary development environment for your operating system. The installation process is well-documented and straightforward, enabling you to begin app development quickly.
 
-## [3. Basic Structure and Creating Flutter Project]
+## 3. Basic Structure and Creating Flutter Project
 
 Flutter projects follow a specific directory structure. Understanding the basic project structure is crucial for organizing your code efficiently. You can create a new Flutter project using the Flutter command-line tool and start building your app.
 
