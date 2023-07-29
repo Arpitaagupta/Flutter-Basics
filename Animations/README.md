@@ -24,7 +24,7 @@ The assignment section in this repository provides exercises related to animatio
 
 `Feel free to experiment with different animation techniques and bring life to your Flutter applications through engaging animations.`
 
-hr>
+<hr>
 <p align="center">
 Happy coding! 🚀
 <hr>
