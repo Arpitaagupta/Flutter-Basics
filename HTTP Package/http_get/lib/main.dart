@@ -29,7 +29,7 @@ class Main extends StatefulWidget {
 }
 
 class _MainState extends State<Main> {
-  String url = "https://txt2html.sourceforge.net/";
+  String url = "https://txt2html.sourceforge.net/"; //sample source page
   var data;
   bool load = true;
   @override
