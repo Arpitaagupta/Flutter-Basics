@@ -51,10 +51,11 @@ class _MainState extends State<Main> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: load
-            ? CircularProgressIndicator()
-            : Container(
-                child: Text(data.body.toString()),
-              ));
+      body: load
+          ? const CircularProgressIndicator()
+          : Container(
+              child: Text(data.body.toString()),
+            ),
+    );
   }
 }
