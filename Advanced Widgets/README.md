@@ -1,10 +1,10 @@
 
  
- # Advanced Widgets
+ # ⭐Advanced Widgets
 
 This README provides an overview of advanced widgets in Flutter, covering various topics such as Slivers, TabBar, Clippers, Theming, and an Assignment. 
 
-## Table of Contents
+## 🔗Table of Contents
 
 ## [1. Slivers](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Advanced%20Widgets/silver)
 Slivers are specialized scrollable areas in Flutter that are used to create custom scrolling effects. They allow you to create flexible and dynamic scrolling behaviors, often used in complex UIs like app bars with collapsing headers.
@@ -21,7 +21,7 @@ Theming in Flutter enables you to apply consistent and customizable styles to yo
 ## [5. Assignment](#advanced-widgets-level-up-your-ui)
 The assignment section in this repository provides exercises or tasks related to advanced widgets. These assignments are designed to help you practice and solidify your understanding of the concepts covered in this README.
 
-Feel free to explore each topic and dive deeper into Flutter's advanced widgets to enhance your app development skills.
+`Feel free to explore each topic and dive deeper into Flutter's advanced widgets to enhance your app development skills.`
 
 
 <hr>
