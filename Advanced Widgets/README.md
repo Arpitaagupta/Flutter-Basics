@@ -6,7 +6,7 @@ This README provides an overview of advanced widgets in Flutter, covering variou
 
 ## 🔗Table of Contents
 
-## [1. Slivers](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Advanced%20Widgets/slivers)
+## [1. Slivers](https://github.com/Arpitaagupta/Flutter-Basics/blob/main/Advanced%20Widgets/slivers/lib/main.dart)
 Slivers are specialized scrollable areas in Flutter that are used to create custom scrolling effects. They allow you to create flexible and dynamic scrolling behaviors, often used in complex UIs like app bars with collapsing headers.
 
 ## [2. TabBar](https://github.com/Arpitaagupta/Flutter-Basics/blob/main/Advanced%20Widgets/tab_bar/lib/main.dart)
