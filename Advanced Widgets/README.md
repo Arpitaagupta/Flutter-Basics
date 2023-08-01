@@ -12,7 +12,7 @@ Slivers are specialized scrollable areas in Flutter that are used to create cust
 ## [2. TabBar](https://github.com/Arpitaagupta/Flutter-Basics/blob/main/Advanced%20Widgets/tab_bar/lib/main.dart)
 TabBar is a widget that provides a horizontal, material-style tab bar. It's commonly used to implement tab-based navigation, allowing users to switch between different screens or sections of an app easily.
 
-## [3. Clippers](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Animations/create_animations)
+## [3. Clippers](https://github.com/Arpitaagupta/Flutter-Basics/blob/main/Advanced%20Widgets/clippers/lib/main.dart)
 Clippers in Flutter are used to custom shape widgets by clipping them with various shapes. This allows developers to create visually appealing and unique designs that go beyond the usual rectangular or circular boundaries.
 
 ## [4. Theming](#http-package-seamless-networking)
