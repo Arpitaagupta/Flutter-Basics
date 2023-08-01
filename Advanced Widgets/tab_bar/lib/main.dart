@@ -15,7 +15,7 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Main(),
+      home: const Main(),
       theme: ThemeData(brightness: Brightness.dark),
     );
   }
@@ -40,20 +40,29 @@ class _MainState extends State<Main> with SingleTickerProviderStateMixin {
     );
   }
 
-  Widget card(String text) {
+  Widget card(
+    String text,
+  ) {
     return Card(
-      color: Colors.amber,
+      color: Colors.teal,
       child: Container(
         height: 200.0,
         width: 200.0,
-        child: Text(text),
+        child: Center(
+          child: Text(
+            text,
+          ),
+        ),
       ),
     );
   }
 
-  Tab tab(Icon icons, String text) {
-    return tab(
-      icon: icons;
+  Tab tab(
+    String text,
+    Icon icon,
+  ) {
+    return Tab(
+      icon: icon,
       text: text,
     );
   }
@@ -72,17 +81,30 @@ class _MainState extends State<Main> with SingleTickerProviderStateMixin {
           elevation: 0.0,
         ),
         body: TabBarView(
+          controller: controller,
           children: [
             card("I am Card 1"),
             card("I am Card 2"),
             card("I am Card 3"),
             card("I am Card 4"),
-            card("I am Card 5")
+            card("I am Card 5"),
+            // card("I am Card 6"),
+            //no of card and no of tabs should be equal
           ],
-          controller: controller,
         ),
         bottomNavigationBar: TabBar(
-          tabs: [Tab()],
+          indicatorColor: Colors.red, //color of the line below the selected tab
+          isScrollable: true, //to scroll the tabbar
+          tabs: [
+            tab("Home", const Icon(Icons.home)),
+            tab("Favourites", const Icon(Icons.favorite)),
+            tab("Add", const Icon(Icons.add)),
+            tab("Downloads", const Icon(Icons.download)),
+            tab("Profile", const Icon(Icons.person)),
+            tab("Settings", const Icon(Icons.settings)),
+            tab("Bookmarks", const Icon(Icons.bookmark)),
+            tab("More", const Icon(Icons.more_vert)),
+          ],
           controller: controller,
         ),
       ),
