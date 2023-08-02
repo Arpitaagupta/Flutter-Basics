@@ -66,9 +66,10 @@ class _MainState extends State<Main> {
       ),
       body: Container(
         child: Theme(
-            data: ThemeData(), child: const Text("Sample text over here")),
+            //all the widgets under this theme will use themedata
+            data: ThemeData(),
+            child: const Text("Sample text over here")),
       ),
     ); // Use the same theme as in MainPage
   }
 }
-//all the widgets under this theme will use themedata
