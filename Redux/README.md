@@ -54,7 +54,7 @@ Redux provides a structured and scalable way to manage the state of your applica
 
 ---
 
-Please note that this is a simplified explanation, and there are many more advanced concepts and features in Redux that can be explored as you gain more experience with it.
+`Please note that this is a simplified explanation, and there are many more advanced concepts and features in Redux that can be explored as you gain more experience with it.`
 
 
 <p align="center">
