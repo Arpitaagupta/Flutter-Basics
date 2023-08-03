@@ -11,7 +11,7 @@ Welcome to Flutter 101, the ultimate guide to mastering the art of building stun
 - [Animations: Bringing Your App to Life](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Animations/create_animations)
 - [HTTP Package: Seamless Networking](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/HTTP%20Package)
 - [Advanced Widgets: Level Up Your UI](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Advanced%20Widgets)
-- [Redux: State Management Made Simple](#redux-state-management-made-simple)
+- [Redux: State Management Made Simple](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Redux)
 - [Real World Application: Building a Pexels App](#real-world-application-building-a-pexels-app)
 - [Assessment: Test Your Flutter Skills](#assessment-test-your-flutter-skills)
 
