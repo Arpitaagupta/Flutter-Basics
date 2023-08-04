@@ -46,9 +46,13 @@ class _MainState extends State<Main> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("I am the AppBar"),
+        title: const Text(
+          "I am the AppBar",
+          style: TextStyle(color: Colors.black),
+        ),
         centerTitle: true,
         toolbarHeight: 60.0,
+        elevation: 0.0,
       ),
       body: Stack(
         children: [
