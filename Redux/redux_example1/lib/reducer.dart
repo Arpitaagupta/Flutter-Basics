@@ -2,9 +2,9 @@ import 'package:redux_example1/counterState.dart';
 import 'package:redux_example1/main.dart';
 
 // The redux package uses reducers to perform actions on data
-CounterState counterReducer(CounterState state, dynamic action) {
+CounterState reducers(CounterState counterState, action) {
   if (action == Action.Inc) {
-    return CounterState(state.counter + 1);
+    return CounterState(counterState.counter + 1);
   }
-  return state;
+  return counterState;
 }
