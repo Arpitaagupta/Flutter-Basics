@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:redux/redux.dart'; // Import the Store class from redux package
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:redux_example1/counterState.dart';
-import 'package:redux_example1/reducer.dart';
+import 'counterState.dart';
+import 'reducer.dart';
 
 void main() {
   runApp(MainApp());
