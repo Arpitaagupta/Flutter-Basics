@@ -1,4 +1,40 @@
 class DartObject {
+  int? totalResults;
+  int? page;
+  int? perPage;
+  List<Photos>? photos;
+  String? nextPage;
+
+  DartObject(
+      {this.totalResults, this.page, this.perPage, this.photos, this.nextPage});
+
+  DartObject.fromJson(Map<String, dynamic> json) {
+    totalResults = json['total_results'];
+    page = json['page'];
+    perPage = json['per_page'];
+    if (json['photos'] != null) {
+      photos = <Photos>[];
+      json['photos'].forEach((v) {
+        photos!.add(new Photos.fromJson(v));
+      });
+    }
+    nextPage = json['next_page'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['total_results'] = this.totalResults;
+    data['page'] = this.page;
+    data['per_page'] = this.perPage;
+    if (this.photos != null) {
+      data['photos'] = this.photos!.map((v) => v.toJson()).toList();
+    }
+    data['next_page'] = this.nextPage;
+    return data;
+  }
+}
+
+class Photos {
   int? id;
   int? width;
   int? height;
@@ -11,7 +47,7 @@ class DartObject {
   bool? liked;
   String? alt;
 
-  DartObject(
+  Photos(
       {this.id,
       this.width,
       this.height,
@@ -24,7 +60,7 @@ class DartObject {
       this.liked,
       this.alt});
 
-  DartObject.fromJson(Map<String, dynamic> json) {
+  Photos.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     width = json['width'];
     height = json['height'];
