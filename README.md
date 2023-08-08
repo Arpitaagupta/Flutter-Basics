@@ -12,7 +12,7 @@ Welcome to Flutter 101, the ultimate guide to mastering the art of building stun
 - [HTTP Package: Seamless Networking](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/HTTP%20Package)
 - [Advanced Widgets: Level Up Your UI](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Advanced%20Widgets)
 - [Redux: State Management Made Simple](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Redux)
-- [Real World Application: Building a Pexels App](#real-world-application-building-a-pexels-app)
+- [Real World Application: Building a Pexels App](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/pexels_app)
 - [Assessment: Test Your Flutter Skills](#assessment-test-your-flutter-skills)
 
 Dive into each section to explore the power and flexibility of Flutter, from the basics to advanced techniques. Whether you're a beginner or experienced developer, this repository is packed with practical examples and step-by-step tutorials.
