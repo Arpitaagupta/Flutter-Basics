@@ -1,16 +1,39 @@
-# pexels_app
+# ⭐ Real World Application: Building a Pexels Application
 
-A new Flutter project.
+# 🔗 Table of Contents
 
-## Getting Started
+## 1. Application Architecture
 
-This project is a starting point for a Flutter application.
+Learn about the overall architecture of the Pexels application, including its design patterns and organization of components.
 
-A few resources to get you started if this is your first Flutter project:
+## 2. Fetch Data
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Explore how to fetch data from the Pexels API, which will be used to display wallpapers in the application.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 3. Home Page (Wallpapers Tab)
+
+Create the Home Page of the application, specifically focusing on the Wallpapers Tab, where users can view a collection of wallpapers.
+
+## 4. Home Page (Wallpapers Tab Pull to refresh)
+
+Implement the pull-to-refresh functionality on the Wallpapers Tab, allowing users to refresh the wallpapers list with a swipe gesture.
+
+## 5. Home Page (Search Tab)
+
+Develop the Search Tab for the Home Page, enabling users to search for specific wallpapers based on keywords or categories.
+
+## 6. Building Final APK (Release)
+
+Learn how to build the final APK for the Pexels application in release mode, ready for distribution to users.
+
+## 7. Assignment
+
+Engage in an assignment or task to reinforce the concepts learned throughout the tutorial and put them into practice.
+
+`Feel free to explore each topic and dive deeper into Real World Application.`
+
+<hr>
+<p align="center">
+Happy coding! 🚀
+<hr>
+</p>
