@@ -10,16 +10,16 @@ Before diving into specific animation techniques, it's essential to understand t
 ## [1. Create Animations](https://github.com/Arpitaagupta/Flutter-Basics/blob/main/Animations/create_animations/lib/main.dart)
 This section guides you through the process of creating basic animations in Flutter. You'll learn how to set up Animation Controllers, define Tweens to specify animation ranges, and use Animation Widgets to animate your UI elements.
 
-## [2. Animated Cross Fade](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Animations/animated_cross_fade)
+## [2. Animated Cross Fade](https://github.com/Arpitaagupta/Flutter-Basics/blob/main/Animations/animated_cross_fade/lib/main.dart)
 Animated Cross Fade is a widget that smoothly transitions between two child widgets with a cross-fading effect. It's commonly used to switch between different pieces of content without abrupt changes.
 
-## [3. Fade Transition](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Animations/fade_transitions)
+## [3. Fade Transition](https://github.com/Arpitaagupta/Flutter-Basics/blob/main/Animations/fade_transitions/lib/main.dart)
 Fade Transition is another animation widget that gradually changes the opacity of a single child widget. It's useful for creating fade-in and fade-out effects in response to user interactions or other events.
 
-## [4. Hero Animations](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Animations/hero_animations)
+## [4. Hero Animations](https://github.com/Arpitaagupta/Flutter-Basics/blob/main/Animations/hero_animations/lib/main.dart)
 Hero Animations allow you to create seamless transitions between two screens by animating shared elements between them. This is often used to provide a visually pleasing experience when navigating between different routes.
 
-## [5. Assignment](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Animations/assignment_3)
+## [5. Assignment](https://github.com/Arpitaagupta/Flutter-Basics/blob/main/Animations/assignment_3/lib/main.dart)
 The assignment section in this repository provides exercises related to animations in Flutter. These assignments are designed to help you practice and enhance your animation skills, enabling you to create captivating and dynamic user interfaces.
 
 `Feel free to experiment with different animation techniques and bring life to your Flutter applications through engaging animations.`
