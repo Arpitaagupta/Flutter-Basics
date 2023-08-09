@@ -7,7 +7,7 @@ This README provides an introduction to animations in Flutter, explaining how th
 
 Before diving into specific animation techniques, it's essential to understand the underlying principles of how animations work in Flutter. Flutter's animation system is based on the concept of Animation Controllers, Tweens, and Animation Widgets, which work together to create smooth and visually appealing animations.
 
-## [1. Create Animations](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Animations/create_animations)
+## [1. Create Animations](https://github.com/Arpitaagupta/Flutter-Basics/blob/main/Animations/create_animations/lib/main.dart)
 This section guides you through the process of creating basic animations in Flutter. You'll learn how to set up Animation Controllers, define Tweens to specify animation ranges, and use Animation Widgets to animate your UI elements.
 
 ## [2. Animated Cross Fade](https://github.com/Arpitaagupta/Flutter-Basics/tree/main/Animations/animated_cross_fade)
